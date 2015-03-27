@@ -9,7 +9,7 @@ angular.module('AuthApp').config(['$routeProvider', function($routeProvider){
       templateUrl: 'views/login.html'
     })
     .when('/posts', {
-      templateUrl: 'view/posts.html',
+      templateUrl: 'views/posts.html',
       controller: 'PostsController',
       controllerAs: 'postsController'
     })

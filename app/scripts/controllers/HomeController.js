@@ -1,5 +1,5 @@
 'use strict';
-angular.module('AuthApp').controller('HomeController', homeController);
+angular.module('MainController').controller('HomeController', homeController);
 homeController.$inject = [];
 
 function homeController(){
